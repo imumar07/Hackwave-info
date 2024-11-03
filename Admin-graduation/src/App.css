@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  font-family: Lora, serif !important;
+  margin-top: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black; /* Apply black background color */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+@media print{
+    body {
+        background-color: black;
+    }
+}
+.college-logo-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.college-logo{
+  height: 6rem;
+  width: fit-content;
+}
+.custom-form-container{
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.4rem;
+}
+
+.submit-btn button {
+  width: fit-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 40px;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.submit-btn button:hover {
+  background-color: black;
+  transform: scale(1.05);
+}

@@ -1,0 +1,28 @@
+/* Import Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.custom-form-container {
+  width: fit-content; /* Default width for smaller screens */
+  padding: 1rem; /* Add padding for better spacing */
+  border: 1px solid #ddd; /* Light grey border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; /* White background */
+  margin: 0 10px; /* Add margin for mobile view */
+  color: black; /* Set text color to black inside form container */
+}
+
+.custom-form-container h1 {
+  text-align: center; /* Center the heading */
+}
+.college-logo-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.college-logo{
+  height: 6rem;
+  width: fit-content;
+}

@@ -1,0 +1,15 @@
+.custom{
+    min-width: 230px;
+}
+.size{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 8rem;
+    min-width: 8rem;
+}
+.logo{
+    height: 5rem;
+    width: fit-content;
+}
